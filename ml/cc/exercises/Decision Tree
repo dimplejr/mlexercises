@@ -1,1 +1,12 @@
-\
+A decision tree working starts with a main question known as the root node. 
+This question is derived from the features of the dataset and serves as the starting point for decision-making.
+
+From the root node, the tree asks a series of yes/no questions. 
+Each question is designed to split the data into subsets based on specific attributes. For example if the first question is “Is it raining?”, the answer will determine which branch of the tree to follow. Depending on the response to each question you follow different branches. If your answer is “Yes,” you might proceed down one path if “No,” you will take another path.
+
+This branching continues through a sequence of decisions.
+As you follow each branch, you get more questions that break the data into smaller groups. 
+This step-by-step process continues until you have no more helpful questions .
+
+You reach at the end of a branch where you find the final outcome or decision. 
+It could be a classification (like “spam” or “not spam”) or a prediction (such as estimated price).
